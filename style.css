@@ -1,9 +1,9 @@
 
 body {
   font-family: 'Press Start 2P', cursive;
-  background-color: #eafbe3; /* Soft pastel green base */
+  background-color: #eafbe3; 
   background-image: 
-    /* Vertical stripes */
+    
     repeating-linear-gradient(
       90deg,
       rgba(170, 225, 170, 0.3) 0px,
@@ -11,7 +11,7 @@ body {
       rgba(255, 255, 255, 0.5) 15px,
       rgba(255, 255, 255, 0.5) 30px
     ),
-    /* Horizontal stripes */
+   
     repeating-linear-gradient(
       0deg,
       rgba(170, 225, 170, 0.3) 0px,
@@ -19,7 +19,7 @@ body {
       rgba(255, 255, 255, 0.5) 15px,
       rgba(255, 255, 255, 0.5) 30px
     ),
-    /* Subtle linen texture */
+    
     radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
   background-blend-mode: overlay, normal;
   color: #042c13;
@@ -29,13 +29,13 @@ body {
 }
 
 .header-bar {
-  background: linear-gradient(135deg, #3ebd7e, #2b9761); /* Soft gradient green */
+  background: linear-gradient(135deg, #3ebd7e, #2b9761); 
   padding: 20px 30px;
   font-size: 22px;
   color: #fff;
   margin: 20px auto;
-  width: 90%; /* Make it more flexible */
-  max-width: 800px; /* Limit on larger screens */
+  width: 90%; 
+  max-width: 800px; 
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(43, 151, 97, 0.3);
   display: flex;
@@ -65,12 +65,12 @@ body {
   align-items: center;
   width: 90%;
   max-width: 800px;
-  margin: 10px auto 25px auto; /* center + space around */
+  margin: 10px auto 25px auto; 
 }
 
 .header img {
   width: 100%;
-  max-width: 800px;   /* same as header-bar width */
+  max-width: 800px;   
   height: auto;
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(43, 151, 97, 0.25);
@@ -79,8 +79,8 @@ body {
 }
 
 .header img {
-  width: 90%; /* almost same width as header-bar, but with padding margin */
-  max-width: 340px; /* prevents being too big on large screens */
+  width: 90%; 
+  max-width: 340px; 
   height: auto;
   border-radius: 3px;
   box-shadow: 0 6px 14px rgba(43, 151, 97, 0.25);
@@ -136,11 +136,11 @@ p:hover {
 @media (max-width: 768px) {
   body {
     padding: 8px;
-    background-size: 40px 40px; /* softer plaid on smaller screens */
+    background-size: 40px 40px; 
   }
 
   .header-bar {
-    font-size: 12px; /* readable but smaller */
+    font-size: 12px; 
     padding: 10px 16px;
     margin: 10px auto;
     border-radius: 14px;
@@ -160,7 +160,8 @@ p:hover {
   }
 
   p {
-    font-size: 12px; /* just-right for mobile reading */
+    font-family: 'Gochi Hand'cursive;
+    font-size: 12px; 
     padding: 10px 14px;
     margin: 8px auto;
     line-height: 1.6;
@@ -173,3 +174,4 @@ p:hover {
     border-radius: 10px;
   }
 }
+
